@@ -1,0 +1,36 @@
+.navbar {
+    position: fixed; /* 고정 위치 */
+    top: 60px; /* 헤더 아래에 위치 (헤더 높이만큼) */
+    left: 0; /* 왼쪽에 위치 */
+    width: 100%; /* 너비를 전체로 설정 */
+    background-color: rgb(122, 121, 121); /* 배경색 설정 */
+    z-index: 999; /* 헤더 아래에 표시 */
+    padding: 10px; /* 패딩 추가 */
+    display: flex; /* Flexbox 활성화 */
+    justify-content: center; /* 수평 가운데 정렬 */
+}
+
+.navbar__list {
+    list-style-type: none; /* 기본 리스트 스타일 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+    display: flex; /* 플렉스 박스 사용 */
+    justify-content: center; /* 중앙 정렬 */
+}
+
+.navbar__item {
+    margin: 0 15px; /* 리스트 항목 간 여백 */
+}
+
+.navbar__link {
+    text-decoration: none; /* 링크의 기본 밑줄 제거 */
+    color: rgb(0, 0, 0); /* 기본 텍스트 색상 */
+    padding: 10px 15px; /* 링크에 여백 추가 */
+    border-radius: 7px; /* 링크 모서리 둥글게 */
+    transition: background-color 0.3s; /* 배경 색상 변화 애니메이션 */
+    font-weight: bold; /* 글씨 두껍게 */
+    display: flex; /* Flexbox 활성화 */
+}
+
+.navbar__link:hover {
+    background-color: lightgray; /* 호버 시 배경 색상 변화 */
+}

@@ -1,0 +1,15 @@
+.Header {
+    position: fixed; /* 헤더를 고정 */
+    top: 0; /* 상단에 위치 */
+    left: 0; /* 왼쪽에 위치 */
+    width: 100%; /* 너비를 전체로 설정 */
+    background-color: rgba(124, 124, 124, 0.1); /* 배경색 설정 */
+    z-index: 1000; /* 다른 요소들 위에 표시 */
+    padding: 10px; /* 패딩 추가 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+.Header h1 {
+    margin: 0;
+    justify-content: center; /* 기본 여백 제거 */
+}
